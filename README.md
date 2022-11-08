@@ -22,4 +22,4 @@ import IntObs from './IntObs.astro'
 - `iotxt` or `ioimg` class plus any of the following animation classes: 
 `fromLeft fromRight fromBelow fromAbove scaleUp`
 - `IntObs component` requires the following prop values: Pixel values, positive or negative depending on which direction you want the animation to move in. Please note: The scaleUp class is a float value not a pixel value) Examples: `fromLeft="-100px" fromRight="200px" fromBelow="200px" fromAbove="200px" scaleUp="0.8"` 
-- Lastly, the following component props control the animation speed: `imgSpeed="1s" and txtSpeed="1s"`. `imgSpeed` when you wrap your image with the `imagebox` class and `txtSpeed` when you wrap text in the `txtbox` class.
+- Lastly, the following component props control the animation speed: `imgSpeed="1s" and txtSpeed="1s"`. `imgSpeed` when you wrap your image with the `imgbox` class and `txtSpeed` when you wrap text in the `txtbox` class.
