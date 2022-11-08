@@ -1,36 +1,27 @@
 /* image container */
 .imgbox {
-  /* position: relative; */
-  /* margin: 5rem auto; */
   height: auto;
   width: 100%;
 }
 
 /* image element */
 .ioimg {
-  /* transition: all 1s; */
   transition: all var(--imgSpeed);
 }
 
 /* text container */
 .txtbox{
-  /* position: relative; */
-  /* margin: 5rem auto; */
   height: auto;
   width: 100%;
 }
 
 /* text element */
 .iotxt {
-  /* height: auto;
-  width: 100%; */
-  /* transition: all 1s; */
   transition: all var(--txtSpeed);
 }
 
 /* for HTML/DOM element via props */
 .fromLeft {
-  /* transform: translateX(-100px); */
   transform: translateX(var(--fromLeft));
   opacity: 0;
 }
