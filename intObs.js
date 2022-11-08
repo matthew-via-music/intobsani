@@ -1,4 +1,4 @@
-const imageboxes = document.querySelectorAll(".imgbox")
+const imgboxes = document.querySelectorAll(".imgbox")
 const imgs = document.querySelectorAll(".ioimg")
 const txtboxes = document.querySelectorAll(".txtbox")
 const txts = document.querySelectorAll(".iotxt")
@@ -13,7 +13,7 @@ const animClasses = [
 // images
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
   entries.forEach(entry => {
-    const currentIndex = Array.from(imageboxes).indexOf(entry.target)
+    const currentIndex = Array.from(imgboxes).indexOf(entry.target)
     if (entry.isIntersecting) {
       imgs[currentIndex].classList.add(animClasses[currentIndex])
     } else {
@@ -23,11 +23,10 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     }
   })
 }, {
-  // root: container,
   threshold: 0.1,
 })
 
-imageboxes.forEach(imagebox => {
+imgboxes.forEach(imagebox => {
   imgObserver.observe(imagebox)
 })
 
@@ -44,7 +43,6 @@ const txtObserver = new IntersectionObserver((entries, txtObserver) => {
     }
   })
 }, {
-  // root: container,
   threshold: 0.1,
 })
 
