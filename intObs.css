@@ -1,0 +1,82 @@
+/* image container */
+.imagebox {
+  /* position: relative; */
+  /* margin: 5rem auto; */
+  height: auto;
+  width: 100%;
+}
+
+/* image element */
+.ioimg {
+  /* transition: all 1s; */
+  transition: all var(--imgSpeed);
+}
+
+/* text container */
+.txtbox{
+  /* position: relative; */
+  /* margin: 5rem auto; */
+  height: auto;
+  width: 100%;
+}
+
+/* text element */
+.iotxt {
+  /* height: auto;
+  width: 100%; */
+  /* transition: all 1s; */
+  transition: all var(--txtSpeed);
+}
+
+/* for HTML/DOM element via props */
+.fromLeft {
+  /* transform: translateX(-100px); */
+  transform: translateX(var(--fromLeft));
+  opacity: 0;
+}
+
+.fromRight {
+  transform: translateX(var(--fromRight));
+  opacity: 0;
+}
+
+.fromBelow {
+  transform: translateY(var(--fromBelow));
+  opacity: 0;
+}
+
+.fromAbove {
+  transform: translateY(var(--fromAbove));
+  opacity: 0;
+}
+/*  */
+/*  */
+.scaleUp {
+  transform: scale(var(--scaleUp));
+}
+
+/* for JS / Intersectional Observer on scroll */
+.fadeInLeft {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.fadeInRight {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.fadeInBtm {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.fadeInTop {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* not included in looped classes  */
+.zoombox {
+  transform: scale(1);
+}

@@ -1,0 +1,19 @@
+---
+import "./intobs.css"
+
+const {fromLeft, fromRight, fromAbove, fromBelow, scaleUp, imgSpeed, txtSpeed} = Astro.props
+---
+
+<div>
+
+  <slot />
+
+</div>
+
+
+<style is:global define:vars={{fromLeft, fromRight, fromAbove, fromBelow, scaleUp, imgSpeed, txtSpeed}}>
+</style>
+
+<script src='./intobs.js'></script>
+
+
