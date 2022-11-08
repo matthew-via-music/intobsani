@@ -1,4 +1,4 @@
-const imageboxes = document.querySelectorAll(".imagebox")
+const imageboxes = document.querySelectorAll(".imgbox")
 const imgs = document.querySelectorAll(".ioimg")
 const txtboxes = document.querySelectorAll(".txtbox")
 const txts = document.querySelectorAll(".iotxt")
