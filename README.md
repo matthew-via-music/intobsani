@@ -7,7 +7,7 @@ import IntObs from './IntObs.astro'
 <IntObs fromRight="100px" fromAbove="-200px" imgSpeed="1s" txtSpeed="1s">
     
 <div class="txtbox">
-  <p class="iotxt fromLeft">one ipsum dolor sit, amet consectetur adipisicing elit. Labore eius consectetur reprehenderit odio deleniti necessitatibus hic esse, natus deserunt architecto obcaecati officia in rem voluptatum, praesentium repellendus iste exercitationem neque?</p>
+  <p class="iotxt fromRight">one ipsum dolor sit, amet consectetur adipisicing elit. Labore eius consectetur reprehenderit odio deleniti necessitatibus hic esse, natus deserunt architecto obcaecati officia in rem voluptatum, praesentium repellendus iste exercitationem neque?</p>
 </div>
   
 <div class="imgbox">
