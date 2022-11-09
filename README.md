@@ -1,3 +1,5 @@
+![Example Gif](./intobsani.gif)
+
 ## Example usage on an Astro page or inside an Astro component
 
 ```
